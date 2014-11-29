@@ -34,4 +34,4 @@ public class Veiculo {
     public double getValorEstacionamento(Double diaria){
         return this.tarifa*diaria;
     }
-}
+}s
