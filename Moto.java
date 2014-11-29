@@ -1,3 +1,7 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package veiculos;
 
 /**
@@ -6,8 +10,13 @@ package veiculos;
  */
 public class Moto extends Veiculo {
     
-	public Moto(int p, int c){
+    public Moto(int p, int c){
     	super(p, c);
+        tarifa = 1.5;
+    }
+    public Double getCalcularHora(){
+        return this.tarifa;
+        
     }
     
 }
