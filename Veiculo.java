@@ -1,7 +1,18 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package veiculos;
 
+/**
+ *
+ * @author 14040201
+ */
+
+
 public class Veiculo {
-	protected int placa;
+    protected Double tarifa;
+    protected int placa;
     protected int carteiraMotorista;
     
     public Veiculo(int p, int c){
@@ -19,5 +30,8 @@ public class Veiculo {
     }
     public int getCarteiraMotorista(){
         return this.carteiraMotorista;
+    }
+    public double getValorEstacionamento(Double diaria){
+        return this.tarifa*diaria;
     }
 }
